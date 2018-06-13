@@ -40,8 +40,8 @@ sudo npm install -g gulpfile
 
 ### Up & Running
 
-1. [Fork the repo](https://github.com/janczizikow/sleek/fork)
-2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/sleek.git`
+1. [Fork the repo](https://github.com/johnrlive/jekyll-thenerdlife/fork)
+2. Clone or download the repo into directory of your choice: `git clone https://github.com/your-github-username/jekyll-thenerdlife.git`
 3. Inside the directory run `bundle install` and `npm install`
 4. If you want to use [gulp.js](https://gulpjs.com/) run `gulp` or `npm start`
   * if you don't want to use gulp you can simply run `bundle exec jekyll serve`
@@ -51,13 +51,13 @@ sudo npm install -g gulpfile
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-sleek"
+gem "jekyll-thenerdlife"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: jekyll-sleek
+theme: jekyll-thenerdlife
 ```
 
 And then execute:
@@ -66,12 +66,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-sleek
+    $ gem install jekyll-thenerdlife
 
 ##[File Structure Overview](#file-structure-overview)
 
 ```bash
-sleek
+jekyll-thenerdlife
 ├── _includes	               # theme includes
 ├── _js	                       # javascript files (by default jquery will be included with the scripts inside)
 ├── _layouts                   # theme layouts (see below for details)
@@ -79,7 +79,7 @@ sleek
 ├── _posts                     # blog posts
 ├── _sass                      # Sass partials
 ├── assets
-|  ├── css	               # minified css files  
+|  ├── css	               # minified css files
 |  ├── img                     # images and icons used for the template
 |  └── js		               # bundled and minified files from _js folder
 ├── _config.yml                # sample configuration
@@ -98,12 +98,12 @@ TODO
 
 ###[Google Tag Manager](#gtm)
 
-To enable Google Tag Manager, add the following lines to `_config.yml`: 
+To enable Google Tag Manager, add the following lines to `_config.yml`:
 ```yaml
 google_tag_manager: GTM-XXXXXXX
 ```
 
-where `GTM-XXXXXXX` is your Google Tag Manager Container ID. 
+where `GTM-XXXXXXX` is your Google Tag Manager Container ID.
 **Note** by default GTM tracking snippet will be also included in development. Google Tag Manager was chosen for this project as it's more flexible than Google Analytics, and it can be used to add GA to your site.
 
 ###[Disqus](#disqus)
@@ -133,7 +133,7 @@ You can check if it works  by simply submitting the form.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/janczizikow/sleek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/johnrlive/jekyll-thenerdlife/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
@@ -142,7 +142,11 @@ To set up your environment to develop this theme, run `bundle install` and `npm 
 Your theme is setup just like a normal Jekyll site! Check out [file structure overview](#file-structure-overview) for details. To test your theme, run `gulp` and open your browser at `http://localhost:3000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-sleek.gemspec` accordingly.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-thenerdlife.gemspec` accordingly.
+
+## Forked From
+
+[https://github.com/janczizikow/sleek](https://github.com/janczizikow/sleek)
 
 ## License
 
