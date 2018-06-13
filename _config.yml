@@ -27,7 +27,7 @@ disqus:
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
-theme: nerdlife-sleek
+theme: jekyll-thenerdlife
 exclude:
   - README.md
   - node_modules
