@@ -1,9 +1,10 @@
-[![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
+[![Gem Version](https://badge.fury.io/rb/jekyll-thenerdlife.svg)](https://badge.fury.io/rb/jekyll-thenerdlife)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/johnrlive/jekyll-thenerdlife)
 # Sleek
 
 A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SEO best practices.
 
-![Sleek Jekyll Theme](./sleek.jpg)
+![Jekyll TheNerdLife Theme](./sleek.jpg)
 
 ## Features
 
@@ -14,7 +15,7 @@ A modern [Jekyll](https://jekyllrb.com/) theme focused on speed performance & SE
 * Support for [Disqus](https://disqus.com/) comments
 * Form submissions with [Formspree](#formspree)
 
-[Preview Demo](https://janczizikow.github.io/sleek/)
+[Preview Demo](https://jekyll-thenerdlife.netlify.com/)
 
 ## Installation
 
